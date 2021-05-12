@@ -1,0 +1,4 @@
+repository "Refugees@ssl://a54c9649-064c-453d-b44b-20a741bd431a@sh03-plasticscm.unity.cn:8787"
+  path "/"
+    smartbranch "/main/748916898" 
+     
