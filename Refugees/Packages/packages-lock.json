@@ -24,7 +24,7 @@
       "url": "https://packages-v2.unity.cn"
     },
     "com.unity.ide.vscode": {
-      "version": "1.2.1",
+      "version": "1.2.3",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -33,6 +33,13 @@
     "com.unity.plasticscm-cn": {
       "version": "1.2.1-preview",
       "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages-v2.unity.cn"
+    },
+    "com.unity.subsystemregistration": {
+      "version": "1.0.6",
+      "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages-v2.unity.cn"
@@ -72,6 +79,35 @@
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
       }
+    },
+    "com.unity.xr.arfoundation": {
+      "version": "2.1.18",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.xr.legacyinputhelpers": "2.1.7",
+        "com.unity.xr.arsubsystems": "2.1.18"
+      },
+      "url": "https://packages-v2.unity.cn"
+    },
+    "com.unity.xr.arsubsystems": {
+      "version": "2.1.18",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.subsystemregistration": "1.0.6"
+      },
+      "url": "https://packages-v2.unity.cn"
+    },
+    "com.unity.xr.legacyinputhelpers": {
+      "version": "2.1.7",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.vr": "1.0.0",
+        "com.unity.modules.xr": "1.0.0"
+      },
+      "url": "https://packages-v2.unity.cn"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
